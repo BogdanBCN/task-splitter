@@ -1,0 +1,80 @@
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.ui-card {
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.title, .subtitle {
+  color: #333;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list-item {
+  padding: 10px 0;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.add-btn, .search-btn, .assign-btn {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+}
+
+.add-btn:hover, .search-btn:hover, .assign-btn:hover {
+  background-color: #45a049;
+}
+
+.error-msg {
+  color: red;
+}
+
+.image-container {
+  width: 100%;
+  text-align: center;
+}
+
+.task-image {
+  max-width: 100%;
+}
+
+.person-name {
+  color: #333;
+}
+
+.assigned-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.assigned-item {
+  padding: 10px 0;
+}
+
+.assigned-image {
+  max-width: 100%;
+}
+
